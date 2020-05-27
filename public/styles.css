@@ -1,0 +1,70 @@
+body{
+  background-color: rgb(43, 83, 78) !important;
+}
+
+.app-sec{
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+
+.search-sec{
+  margin-left: 15% !important;
+}
+
+.random-sec{
+  margin-left: 1%;
+}
+
+.form-sec{
+  width: 30%;
+}
+
+.card-sec{
+  color: black !important;
+  width: 60% !important;
+}
+
+@media screen and (max-width: 600px) {
+
+  .app-sec{
+    position: absolute;
+    left: 0% !important;
+    top: 20% !important;
+    width: 100% !important;
+  }
+ 
+  .form-sec{
+    width: 90% !important;
+    margin-left: 8px !important;
+  }
+
+  .random-sec{
+    font-size: 18px;
+    text-align: center;
+  }
+  .search-sec{
+    width: 100% !important; 
+    margin-left: 8px !important;
+  }
+  .card-sec{
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 770px){
+
+  .app-sec{
+    position: absolute;
+    left: 20% !important;
+    top: 20% !important;
+    width: 100% !important;
+  }
+  .random-sec{
+    font-size: 30px !important;
+    margin-left: -10% !important;
+  }
+  .search-sec{
+    width: 100% !important; 
+  }
+}
